@@ -1,0 +1,42 @@
+{
+  "baseURL": "https://www.dice.com/dashboard/login",
+  "keywords": [
+    "\"Software Engineer\"",
+    "\"Full Stack Engineer\"",
+    "\"fullstack developer\"",
+    "\"full stack developer\"",
+    "\"javascript developer\"",
+    "\"nodejs developer\"",
+    "\"Java Developer\"",
+    "\"Java Engineer\""
+  ],
+  "location": "United States",
+  "numberOfJobsPerPage": 20,
+  "avoidJobTitles": [
+    "TEST",
+    "EMBEDDED",
+    "PYTHON",
+    "PRINCIPAL",
+    "CHIEF",
+    "STAFF",
+    "MANAGER",
+    ".NET",
+    "DOTNET",
+    "C#",
+    "C++",
+    "SHAREPOINT",
+    "SHARE POINT",
+    "LEAD",
+    "ARCHITECT",
+    "CLEARANCE",
+    "USC",
+    "GC",
+    "SECRET",
+    "TOP",
+    "NET",
+    "LOCAL",
+    "CITIZEN",
+    "CLEARED"
+  ],
+  "avoidCompanyNames": ["Test Company", "Defense Systems", "RLS Associates", "Refonte Learning"]
+}
