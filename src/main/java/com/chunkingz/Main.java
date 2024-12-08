@@ -106,10 +106,10 @@ public class Main {
             while (currentPage <= maxPagination) {
                 for (int i=0; i<numberOfJobsPerPage; i++) {
                     pause(1000);
-//                    if (currentJobIndex >= totalJobCount){
-//                        System.out.println("\nThat's all the available jobs, adjust filters and try again");
-//                        break;
-//                    }
+                    if (currentJobIndex >= totalJobCount){
+                        System.out.println("\nThat's all the available jobs, adjust filters and try again");
+                        break;
+                    }
                     System.out.println("\nJob N°: (" + (currentJobIndex+1) + " out of " + totalJobCount + ")");
                     currentJobIndex++;
                     var currentJob = driver.findElement(By.cssSelector("dhi-search-card[data-cy-index='" + i + "']"));
